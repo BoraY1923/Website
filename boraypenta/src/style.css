@@ -1,0 +1,272 @@
+@font-face {
+    src: url(../fonts/Lato-Black.ttf);
+    font-family: Lato-Black;
+}
+
+@font-face {
+    src: url(../fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
+}
+
+@font-face {
+    src: url(../fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+@font-face {
+    src: url(../fonts/Lato-Thin.ttf);
+    font-family: Lato-Thin;
+}
+
+@font-face {
+    font-family: codebold;
+    src: url(../fonts/SourceCodePro-Black.ttf);
+}
+
+@font-face {
+    font-family: codelight;
+    src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1d1e;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+#title {
+    font-family: codebold;
+    color: white;
+    text-align: center;
+    padding: 180px;
+    font-size: 75px;
+    position: relative;
+}
+
+#description {
+    font-family: codelight;
+    color: white;
+    text-align: center;
+    padding: -20px;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+/*
+    overflow: hidden; 
+  
+    white-space: nowrap; 
+    margin: 0 auto; /
+  
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+       
+} 
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+*/
+}
+
+
+#borayicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    border-style: solid;
+    border-color: white;
+}
+
+
+#ul {
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+}
+
+text {
+    display: none;
+}
+
+
+#steamsvg {
+    width: 70px;
+    height: 70px;
+    transition: .2s ease-out;
+}
+
+#discordsvg {
+    width: 70px;
+    height: 70px;
+    transition: .2s ease-out;
+}
+
+#twittersvg {
+    width: 70px;
+    height: 70px;
+    transition: .2s ease-out;
+}
+
+#instasvg {
+    width: 70px;
+    height: 70px;
+    transition: .2s ease-out;
+}
+
+#githubsvg {    
+    width: 70px;
+    height: 70px;
+    transition: .2s ease-out;
+}
+
+
+
+#footer {
+    font-family: codelight;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    position: relative;
+    padding-top: 180px;
+    
+}
+
+#steamsvg:hover {
+    transform: scale(1.2);
+}w
+
+#discordsvg:hover {
+    transform: scale(1.2);
+}
+
+#twittersvg:hover {
+    transform: scale(1.2);
+}
+
+#instasvg:hover {
+    transform: scale(1.2);
+}
+
+#githubsvg:hover {
+    transform: scale(1.2);
+}
+ 
+
+#projectsdiv {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#projectsbut {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: codelight;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    border-style: solid;
+    border-width: 0.3px;
+    padding: 5px;
+    border-radius: 15%;
+    transition: .2s ease-out;
+}
+
+#projectsbut:hover {
+    background-color: white;
+    color: #1b1d1e;
+    border-color: white;
+    
+    
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    body {
+        width: 100%;
+        height: 100%;
+        overflow-y: hidden;
+    }
+
+
+    #title {
+        position: relative;
+        margin-left: -80px;
+    }
+
+    #description {
+        font-size: 17px;
+    }
+
+    #footer {
+        padding-top: 80px;
+        margin-top: 40px;
+        position: relative;
+
+    }
+
+    #container {
+        position: relative;
+        margin-top: -100px;
+    }
+
+
+    #steamsvg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #discordsvg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #twittersvg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #instasvg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #githubsvg {    
+        width: 50px;
+        height: 50px;
+    }
+
+    li {
+        display: inline;
+        padding-left: 0px;
+    }
+}

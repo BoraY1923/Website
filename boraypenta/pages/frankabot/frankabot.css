@@ -1,0 +1,73 @@
+@font-face {
+    src: url(../../fonts/Lato-Black.ttf);
+    font-family: Lato-Black;
+}
+
+@font-face {
+    src: url(../../fonts/Lato-Bold.ttf);
+    font-family: Lato-Bold;
+}
+
+@font-face {
+    src: url(../../fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+@font-face {
+    src: url(../../fonts/Lato-Thin.ttf);
+    font-family: Lato-Thin;
+}
+
+@font-face {
+    font-family: codebold;
+    src: url(../../fonts/SourceCodePro-Black.ttf);
+}
+
+@font-face {
+    font-family: codelight;
+    src: url(../../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1d1e;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: codelight;
+    color: white;
+    text-align: center;
+    padding: 130px;
+}
+
+p {
+    text-align: center;
+    font-family: codelight;
+    padding: -20px;
+    color: white;
+}
+
+#arrow {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+    padding: 30px;
+}
+
+#footer {
+    font-family: codelight;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    position: relative;
+    padding-top: 180px;
+    
+}
